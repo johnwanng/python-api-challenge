@@ -14,7 +14,7 @@ Wind Speed (mph) vs. Latitude
 
 Each of four plots were stored as png files inside the 'Images' folder.  
 
-The following are three observable trends based on the weather data:
+The following are five observable trends based on the weather data:
 
 The correlation coefficient calculated between temperatures and latitudes of cities is  -0.7652381363577664 and this value is between -0.5 to -1 which indicates a strong relationship between temperatures and the latitudes of the cities. The scatter plot represented in the 'Scatter-Temperature (F) vs Latitude of sample 600 cities.pgn' has indicated higher temperature cities tend to located on lower latitudes coordinates of cities used in the sample data.
 
@@ -24,9 +24,10 @@ The correlation coefficient calculated between Cloudiness (%) and latitudes of c
 
 The correlation coefficient calculated between Wind Speed (mph) and latitudes of cities. Is -0.0017078635489743289 and this value is very close to 0 which indicates a weak or no relationship between humidity percentage and the latitudes of the cities. The scatter plot represented in the 'Wind speed (mph) vs Latitude of sample 600 cities.png' has NOT provided any evidence or relationship between wind speed and latitudes of those cities used in the sample data.
 
+Because we are only taken the temperature, humidity, cloudiness and wind speed at one instance of those cities hence the accuracy of data might not be that reliable. It would be better if we can take a reading of those cities and continue for a period of a month or two and then calculate the mean of those values and plot them using the scatter plots would, I think, provide a more accurate statistical output than our current one.  
 
 
-The second requirement is to run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
+The second requirement is to run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). Each of following scatter plot output are stored as image files in the 'Images' folder 
 
 Northern Hemisphere - Temperature (F) vs. Latitude
 Southern Hemisphere - Temperature (F) vs. Latitude
